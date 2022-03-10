@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C3_4 
+REMARK    2  A    between atoms: C1_2  and  C13_20 
+REMARK    3  A    between atoms: C6_7  and  O_8 
+REMARK    4  A    between atoms: O_8  and  C7_9 
+REMARK    5  A    between atoms: C7_9  and  C8_10 
+REMARK    6  A    between atoms: C8_10  and  C9_12 
+REMARK    7  A    between atoms: C8_10  and  O1_11 
+REMARK    8  A    between atoms: C9_12  and  N_13 
+REMARK    9  A    between atoms: N_13  and  S_14 
+REMARK   10  A    between atoms: C16_24  and  O4_25 
+REMARK   11  A    between atoms: O4_25  and  C17_26 
+REMARK   12  A    between atoms: C17_26  and  C18_27 
+REMARK   13  A    between atoms: C18_27  and  O5_28 
+ROOT
+ATOM      1  C3  LIG    58       9.370  58.670  30.720  1.00  1.00    -0.045 C 
+ATOM      2  C4  LIG    58       8.920  59.120  29.480  1.00  1.00     0.011 C 
+ATOM      3  C5  LIG    58       7.490  59.330  29.230  1.00  1.00     0.037 C 
+ATOM      4  C6  LIG    58       6.580  58.890  30.220  1.00  1.00     0.068 C 
+ATOM      5  C11 LIG    58       7.030  58.320  31.370  1.00  1.00     0.037 C 
+ATOM      6  C12 LIG    58       8.390  58.220  31.620  1.00  1.00     0.011 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C1  LIG    58      10.890  58.320  30.980  1.00  1.00     0.007 C 
+ATOM      8  C   LIG    58      10.900  56.820  30.670  1.00  1.00     0.025 C 
+ATOM      9  C2  LIG    58      11.900  58.970  30.070  1.00  1.00     0.025 C 
+BRANCH   7  10
+ATOM     10  C13 LIG    58      11.350  58.620  32.380  1.00  1.00    -0.044 C 
+ATOM     11  C21 LIG    58      11.130  59.920  32.880  1.00  1.00     0.019 C 
+ATOM     12  C20 LIG    58      11.540  60.250  34.210  1.00  1.00    -0.011 C 
+ATOM     13  CL2 LIG    58      11.340  61.850  34.870  1.00  1.00     0.032 C 
+ATOM     14  C16 LIG    58      12.180  59.260  35.040  1.00  1.00     0.083 C 
+ATOM     15  C15 LIG    58      12.500  57.970  34.500  1.00  1.00    -0.011 C 
+ATOM     16  C14 LIG    58      12.110  57.710  33.160  1.00  1.00     0.019 C 
+ATOM     17  CL  LIG    58      13.270  56.640  35.360  1.00  1.00     0.032 C 
+BRANCH  14  18
+ATOM     18  O4  LIG    58      12.510  59.490  36.350  1.00  1.00    -0.347 OA
+BRANCH  18  19
+ATOM     19  C17 LIG    58      13.840  59.890  36.610  1.00  1.00     0.207 C 
+BRANCH  19  20
+ATOM     20  C18 LIG    58      14.360  59.420  38.010  1.00  1.00     0.142 C 
+ATOM     21  C19 LIG    58      15.930  59.490  37.880  1.00  1.00     0.036 C 
+BRANCH  20  22
+ATOM     22  O5  LIG    58      13.940  60.390  38.980  1.00  1.00    -0.393 OA
+ATOM     23  H24 LIG    58      13.990  59.950  39.850  1.00  1.00     0.210 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   4  24
+ATOM     24  O   LIG    58       5.280  58.970  30.060  1.00  1.00    -0.349 OA
+BRANCH  24  25
+ATOM     25  C7  LIG    58       4.660  59.160  28.820  1.00  1.00     0.208 C 
+BRANCH  25  26
+ATOM     26  C8  LIG    58       3.110  59.380  29.020  1.00  1.00     0.156 C 
+BRANCH  26  27
+ATOM     27  C9  LIG    58       2.410  58.050  29.020  1.00  1.00     0.137 C 
+BRANCH  27  28
+ATOM     28  N   LIG    58       1.040  58.070  29.390  1.00  1.00    -0.218 NA
+ATOM     29  H15 LIG    58       0.600  58.760  28.780  1.00  1.00     0.139 HD
+BRANCH  28  30
+ATOM     30  S   LIG    58       0.160  56.750  28.950  1.00  1.00     0.205 S 
+ATOM     31  O2  LIG    58      -0.050  56.990  27.530  1.00  1.00    -0.212 OA
+ATOM     32  C10 LIG    58      -1.310  57.060  29.900  1.00  1.00     0.179 C 
+ATOM     33  O3  LIG    58       0.940  55.660  29.480  1.00  1.00    -0.212 OA
+ENDBRANCH  28  30
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+BRANCH  26  34
+ATOM     34  O1  LIG    58       2.890  60.190  30.160  1.00  1.00    -0.392 OA
+ATOM     35  H12 LIG    58       3.160  61.120  30.110  1.00  1.00     0.210 HD
+ENDBRANCH  26  34
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   4  24
+TORSDOF 13

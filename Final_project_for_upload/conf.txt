@@ -1,0 +1,12 @@
+receptor = protein.pdbqt
+ligand = ligand.pdbqt
+
+out = all.pdbqt
+
+center_x = 40.61000061035156 
+center_y = 32.06999969482422 
+center_z = 17.690000534057617 
+
+size_x = 8
+size_y = 8
+size_z = 8
