@@ -6,9 +6,7 @@ Final project folder contains notebook and files needed to complete an Autodock 
 
 
 In AR_protein folder contains 9 frames of pdb and pdbqt from a long time simulation, and in pdbqt folder is the pdbqt for ligand EPI-7170 (for AR system) and EGCG (for p53 system).
-
 protein.pdbqt and ligand.pdbqt serves as an example for the first part of autodock vina test, to run docking on the whole protein.
-
 conf.txt is also an example of the file format needed for vina input.
 
 
